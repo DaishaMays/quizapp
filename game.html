@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz APP</title>
+    <link rel="stylesheet" href="css/game.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Quiz App</h1>
+
+    <!-- build out the scoreboard -->
+    <div class="container">
+        <div id="game" class="justify flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progress-text" class="hud-prefix">
+
+                    </p>
+
+                    <div id="progress-bar">
+                        <div id="progrss-bar-full">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
