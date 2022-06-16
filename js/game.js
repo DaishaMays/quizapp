@@ -1,0 +1,1 @@
+console.log('My javascript for the game is working')
